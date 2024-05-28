@@ -17,4 +17,3 @@ Download the script, `yday.c`
 3. **Usage**:
    Now you can easily invoke the program from your terminal whenever you need it.
    Type on your terminal `~$ yday`
-   `
