@@ -1,0 +1,27 @@
+name: yday
+version: '1.0'
+summary: Display day of the year (as of now, a simple translation of date +%j)
+description: |
+  This application calculates the day of the year based on the current date.
+grade: stable
+confinement: strict
+
+architectures:
+  - amd64
+  - armhf
+  - arm64
+
+apps:
+  year-day:
+    command: bin/yday
+    plugs: [network-bind]
+
+parts:
+  year-day:
+    plugin: cmake
+    source: src
+    build-packages:
+      - gcc
+      - make
+    stage-packages:
+      - libc6-dev
