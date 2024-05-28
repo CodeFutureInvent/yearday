@@ -1,6 +1,8 @@
-# Calculate Day of the Year
+# Display the current day of the year
 
 ## Instructions
+
+_This code is a translation and adaptation of the shell command:_ `date +%j`
 
 Download the script, `yday.c`
 
@@ -16,5 +18,3 @@ Download the script, `yday.c`
    Now you can easily invoke the program from your terminal whenever you need it.
    Type on your terminal `~$ yday`
    `
-   
-   
