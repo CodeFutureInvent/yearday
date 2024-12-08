@@ -13,7 +13,7 @@ If today's date is May 27, 2024, the program will output '148' since May 27th is
 
 Usage:
 1. Save the program as 'yday.c'.
-2. Compile the program using a C compiler: `gcc day_of_year.c -o day_of_year`.
+2. Compile the program using a C compiler: `gcc yday.c -o yday`.
 3. Run the compiled executable: `./yday`.
 */
 
