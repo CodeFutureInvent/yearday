@@ -1,5 +1,5 @@
 /*
-Author: Victor deMatos (victorkolis, spacemany2k38)
+Author: Victor deMatos (spacemany2k38)
 Date: May 27, 2024
 
 Purpose:
