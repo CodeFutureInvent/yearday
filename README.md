@@ -8,8 +8,10 @@ Download the script, `yday.c`
 
 1. **Compilation**:
    ```bash
-   gcc yday.c -o yday
+   gcc -o yday yday.c
    ```
+   - If you are on a MacBook place your executable under `/Users/<YOUR-USERNAME>/bin/`
+   - If you are on Linux move your executable to: `/usr/local/bin/`
 
 2. **Installation**:
    Move the compiled binary file to your `/usr/local/bin` directory.
